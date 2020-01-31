@@ -685,6 +685,8 @@
 #define LIBC     5
 /** Null seed. */
 #define	ZERO     6
+/** Use RIOT's random module for seeding */
+#define RIOTRND     7
 /** Chosen random generator seeder. */
 #define SEED     @SEED@
 
