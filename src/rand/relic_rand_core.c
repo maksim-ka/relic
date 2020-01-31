@@ -159,6 +159,10 @@ void rand_init(void) {
 		}
 	}
 
+#elif SEED == RIOTRND && defined(MODULE_RANDOM)
+
+	random_bytes(buf,SEED_SIZE);
+
 #endif
 
 #endif /* RAND == UDEV */
