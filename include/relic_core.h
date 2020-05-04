@@ -388,7 +388,7 @@ typedef struct _ctx_t {
 	/** @} */
 #endif /* WITH_PP */
 
-#if BENCH > 0
+//#if BENCH > 0
 	/** Stores the time measured before the execution of the benchmark. */
 	bench_t before;
 	/** Stores the time measured after the execution of the benchmark. */
@@ -399,7 +399,7 @@ typedef struct _ctx_t {
 	/** Benchmarking overhead to be measured and subtracted from benchmarks. */
 	long long over;
 #endif
-#endif
+//#endif
 
 #if RAND != CALL
 	/** Internal state of the PRNG. */
